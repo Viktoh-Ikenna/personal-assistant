@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2007424AAFAE1D8FB8728D2E /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66DEBECFD480A2F218AE992 /* SpeechRecognizer.swift */; };
+		43A963685DCB51C5AA9CE621 /* VoiceSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A697D543D877FB6A6F0DC398 /* VoiceSheet.swift */; };
+		4866C4A61BAEF08D5515F529 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0165EBFFE000C37B7E1FE45F /* SettingsView.swift */; };
+		625FE490DEEE77C83E27DEBE /* CheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A5E492585348D0FF35892E /* CheckInView.swift */; };
+		838256B77843BFDC9784B2D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B3A5108EDAEF1AAD8DFB9F2 /* Assets.xcassets */; };
+		90C180D44FF1C54E5C98863B /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD50F611F0DAEC033FE8314 /* Models.swift */; };
+		95D46B2B64E14B9A0C0143EC /* CommandParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367AFCC283FC31EE0FB67E67 /* CommandParser.swift */; };
+		A5914B81CB0B5CB44EC06F45 /* BugMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801B682C338302849E5ECD02 /* BugMeApp.swift */; };
+		B3F2D418196F5E6E3CD345C7 /* BugMeIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF37C6673DB96138224B564E /* BugMeIntents.swift */; };
+		C93BD21F0E9A52A9A836EAE3 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC0EB93DEC96D185E8190DC /* TaskListView.swift */; };
+		D3CF2E04677D1F37EE573130 /* NagScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE31C40CC204BAD61F6010F2 /* NagScheduler.swift */; };
+		E0C6DADBD57158D20DFD07A6 /* CommandRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2195F867D836761396637902 /* CommandRunner.swift */; };
+		ECE5CD5347E53C351CA24996 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEAB6E8B96217C038D20A51 /* Theme.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0165EBFFE000C37B7E1FE45F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		1AEAB6E8B96217C038D20A51 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		2195F867D836761396637902 /* CommandRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandRunner.swift; sourceTree = "<group>"; };
+		367AFCC283FC31EE0FB67E67 /* CommandParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandParser.swift; sourceTree = "<group>"; };
+		3EC0EB93DEC96D185E8190DC /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		7B3A5108EDAEF1AAD8DFB9F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		801B682C338302849E5ECD02 /* BugMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugMeApp.swift; sourceTree = "<group>"; };
+		83A5E492585348D0FF35892E /* CheckInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInView.swift; sourceTree = "<group>"; };
+		A697D543D877FB6A6F0DC398 /* VoiceSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceSheet.swift; sourceTree = "<group>"; };
+		AAD01F5E148BE954C9161198 /* BugMe.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = BugMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD50F611F0DAEC033FE8314 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		B66DEBECFD480A2F218AE992 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		BE31C40CC204BAD61F6010F2 /* NagScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NagScheduler.swift; sourceTree = "<group>"; };
+		DF37C6673DB96138224B564E /* BugMeIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugMeIntents.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3C14BABC06339D214C406644 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				83A5E492585348D0FF35892E /* CheckInView.swift */,
+				0165EBFFE000C37B7E1FE45F /* SettingsView.swift */,
+				3EC0EB93DEC96D185E8190DC /* TaskListView.swift */,
+				1AEAB6E8B96217C038D20A51 /* Theme.swift */,
+				A697D543D877FB6A6F0DC398 /* VoiceSheet.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		593B015B64240C5DC94032F1 /* Intents */ = {
+			isa = PBXGroup;
+			children = (
+				DF37C6673DB96138224B564E /* BugMeIntents.swift */,
+			);
+			path = Intents;
+			sourceTree = "<group>";
+		};
+		8804CEE54F878D1C74531E15 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AFD50F611F0DAEC033FE8314 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		99E6C71C7140BBA493592E3E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				801B682C338302849E5ECD02 /* BugMeApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B09AA4D0B455CFE3E6A2DE44 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				367AFCC283FC31EE0FB67E67 /* CommandParser.swift */,
+				2195F867D836761396637902 /* CommandRunner.swift */,
+				BE31C40CC204BAD61F6010F2 /* NagScheduler.swift */,
+				B66DEBECFD480A2F218AE992 /* SpeechRecognizer.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B81A9306837073F69D4A3D92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAD01F5E148BE954C9161198 /* BugMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B997E918A481FA17453B0A30 = {
+			isa = PBXGroup;
+			children = (
+				F7CF40B0840FBD97BCC68DF7 /* BugMe */,
+				B81A9306837073F69D4A3D92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7CF40B0840FBD97BCC68DF7 /* BugMe */ = {
+			isa = PBXGroup;
+			children = (
+				7B3A5108EDAEF1AAD8DFB9F2 /* Assets.xcassets */,
+				99E6C71C7140BBA493592E3E /* App */,
+				593B015B64240C5DC94032F1 /* Intents */,
+				8804CEE54F878D1C74531E15 /* Models */,
+				B09AA4D0B455CFE3E6A2DE44 /* Services */,
+				3C14BABC06339D214C406644 /* Views */,
+			);
+			path = BugMe;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46859A9E91DB186862169D85 /* BugMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0791609088E58F35F67A0E9B /* Build configuration list for PBXNativeTarget "BugMe" */;
+			buildPhases = (
+				B206C3CDC62FDAD2EF640583 /* Sources */,
+				D46FB7FECCE06AC1DACACC57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BugMe;
+			packageProductDependencies = (
+			);
+			productName = BugMe;
+			productReference = AAD01F5E148BE954C9161198 /* BugMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C953C4C82165375E0B11AB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					46859A9E91DB186862169D85 = {
+						DevelopmentTeam = ZA5H95QAW8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 864C3C8430D2A8DBADF7FA34 /* Build configuration list for PBXProject "BugMe" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = B997E918A481FA17453B0A30;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46859A9E91DB186862169D85 /* BugMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D46FB7FECCE06AC1DACACC57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838256B77843BFDC9784B2D0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B206C3CDC62FDAD2EF640583 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5914B81CB0B5CB44EC06F45 /* BugMeApp.swift in Sources */,
+				B3F2D418196F5E6E3CD345C7 /* BugMeIntents.swift in Sources */,
+				625FE490DEEE77C83E27DEBE /* CheckInView.swift in Sources */,
+				95D46B2B64E14B9A0C0143EC /* CommandParser.swift in Sources */,
+				E0C6DADBD57158D20DFD07A6 /* CommandRunner.swift in Sources */,
+				90C180D44FF1C54E5C98863B /* Models.swift in Sources */,
+				D3CF2E04677D1F37EE573130 /* NagScheduler.swift in Sources */,
+				4866C4A61BAEF08D5515F529 /* SettingsView.swift in Sources */,
+				2007424AAFAE1D8FB8728D2E /* SpeechRecognizer.swift in Sources */,
+				C93BD21F0E9A52A9A836EAE3 /* TaskListView.swift in Sources */,
+				ECE5CD5347E53C351CA24996 /* Theme.swift in Sources */,
+				43A963685DCB51C5AA9CE621 /* VoiceSheet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		92F6044659466F559D318FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D6D62018FA206F7E99E629B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZA5H95QAW8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BugMe;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "BugMe listens when you tap the mic so you can add tasks by voice.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "BugMe turns your voice into tasks, on your iPhone.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bugme.personal.app;
+				PRODUCT_NAME = BugMe;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E60BEBC9E0D8F6BBA21D2FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZA5H95QAW8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BugMe;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "BugMe listens when you tap the mic so you can add tasks by voice.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "BugMe turns your voice into tasks, on your iPhone.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bugme.personal.app;
+				PRODUCT_NAME = BugMe;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FB0CD82E861CEDFF516EE447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0791609088E58F35F67A0E9B /* Build configuration list for PBXNativeTarget "BugMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E60BEBC9E0D8F6BBA21D2FAB /* Debug */,
+				D6D62018FA206F7E99E629B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		864C3C8430D2A8DBADF7FA34 /* Build configuration list for PBXProject "BugMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0CD82E861CEDFF516EE447 /* Debug */,
+				92F6044659466F559D318FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C953C4C82165375E0B11AB4 /* Project object */;
+}
